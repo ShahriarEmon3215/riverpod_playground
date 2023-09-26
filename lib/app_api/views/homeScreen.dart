@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_playground/models/post_model.dart';
-import 'package:riverpod_playground/providers/homeProvider.dart';
-
-class HomeScreen extends ConsumerWidget {
-  const HomeScreen({super.key});
+import '../models/post_model.dart';
+import '../providers/homeProvider.dart';
+class HomeScreenApiCall extends ConsumerWidget {
+  const HomeScreenApiCall({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

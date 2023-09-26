@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_playground/models/post_model.dart';
-import 'package:riverpod_playground/services/api_service.dart';
+
+import '../models/post_model.dart';
+import '../services/api_service.dart';
 
 final articleStateProvider =
     StateNotifierProvider.autoDispose<ArticleProvider, ArticleState>(

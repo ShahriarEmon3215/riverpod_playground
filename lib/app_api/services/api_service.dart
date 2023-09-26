@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:riverpod_playground/models/post_model.dart';
+
+import '../models/post_model.dart';
 
 class ApiService {
   final dio = Dio();
